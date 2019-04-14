@@ -3,7 +3,7 @@
 
 int main()
 {
-	int p[5],a[5],q[5],z[5],m,n,i,large,count=0,time;
+	
 	double ag=0,t=0,end;
 	printf("Enter the number of process =\n");
 	scanf("%d",&i);
