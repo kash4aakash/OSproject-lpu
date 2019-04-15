@@ -7,7 +7,7 @@ int main()
 	int a[5];
 	int q[5];
 	int z[5],m,n,i,large,count=0,time;
-	double ag=0,t=0,end;
+	double ag=0,t=0,end;//ag= average waiting time
 	printf("Enter the number of process =\n");
 	scanf("%d",&i);
 	printf("Enter Process Id =\n");
