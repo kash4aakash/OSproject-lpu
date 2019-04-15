@@ -27,7 +27,7 @@ int main()
 		large=4;
 			for(m=0;m<i;m++)
 			{
-				if()
+				if(p[m]<=time && q[m]>q[large] && q[m]>0)
 					large=m;
 			}
 		q[large]--;
