@@ -3,7 +3,10 @@
 
 int main()
 {
-	int p[5],a[5],q[5],z[5],m,n,i,large,count=0,time;
+	int p[5];
+	int a[5];
+	int q[5];
+	int z[5],m,n,i,large,count=0,time;
 	double ag=0,t=0,end;
 	printf("Enter the number of process =\n");
 	scanf("%d",&i);
@@ -24,7 +27,7 @@ int main()
 		large=4;
 			for(m=0;m<i;m++)
 			{
-				if(p[m]<=time && q[m]>q[large] && q[m]>0)
+				if()
 					large=m;
 			}
 		q[large]--;
