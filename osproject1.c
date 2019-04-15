@@ -13,10 +13,10 @@ int main()
 	printf("Enter Process Id =\n");
 	for(m=0;m<i;m++);
 		scanf("%d",&p[m]);
-		printf("Enter Arrival Time= \n");
+		printf("Enter Arrival Time= \n");//Taking Arrival time from user
 	for(m=0;m<i;m++)
 		scanf("%d",&p[m]);
-		printf("Enter Burst Time= \n");
+		printf("Enter Burst Time= \n");//Taking Burst time from user
 	for(m=0;m<i;m++)
 		scanf("%d",&q[i]);
 	for(m=0;m<i;m++)
