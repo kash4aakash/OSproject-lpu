@@ -40,6 +40,20 @@ int main()
 			t=t+end-a[large];
 		}	
 	}
+	for (i = 0; i < 3; i++) { 
+        printf ("%d\t",p[i].processno ); 
+        printf("%d\t",p[i].AT ); 
+        printf( "%d\t",p[i].BTbackup);
+        printf ("%d\t", p[i].CT ); 
+        printf("%d\t", p[i].TAT ); 
+        printf( "%d\n",p[i].WT );  
+    } 
+    printf( "Total TAT = %d\n" ,totalTAT); 
+    printf( "Average TAT = %f\n" ,(totalTAT/4.0));
+    printf("Total WT =%d \n",totalWT);
+    printf( "Average WT = %f\n" ,(totalWT/4.0));
+     
 	printf("\n\n\n\n Average Waiting Time = %f\n",ag/n);
-	printf("\n\n\n Average TurnAround Time =%f\n",t/n);	
+	printf("\n\n\n Average TurnAround Time =%f\n",t/n);
+	return 0;
 }
