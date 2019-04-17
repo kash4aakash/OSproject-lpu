@@ -4,4 +4,4 @@ Three students (a, b, c) are arriving in the mess at the same time. The id numbe
 
 TurnAround Time:In general, turnaround time means the amount of time taken to complete a process or fulfill a request. The concept thus overlaps with lead time and can be contrasted with cycle time.
 
-Burst Time:The slice that it gets, is called the CPU burst. In simple terms, the duration for which a process gets control of the CPU is the CPU burst time, and the concept of gaining control of the CPU is the CPU burst. Similarly, an I/O burst is the concept of performing I/O operations.
+Burst Time:The slice that it gets, is called the CPU burst.In simple terms, the duration for which a process gets control of the CPU is the CPU burst time, and the concept of gaining control of the CPU is the CPU burst. Similarly, an I/O burst is the concept of performing I/O operations.
