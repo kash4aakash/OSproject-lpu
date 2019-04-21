@@ -23,7 +23,7 @@ int main(){
 		printf("enter burst time: ");
 		scanf("%d",&burst_time[i]);
 		printf("\n");
-		// burt time in another array for reamaining time calculation.
+		// burst time in another array for reamaining time calculation.
 		remain_time[i]=burst_time[i];
 	}
 	
